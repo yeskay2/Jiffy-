@@ -1,0 +1,731 @@
+.custom-btn1 {
+  width: 145px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  outline: none;
+}
+
+.custom-btn1:hover {
+  color: #3d3399;
+  font-weight: bold;
+  border: 2px solid #3d3399;
+}
+
+/* 2 */
+.btn-2 {
+  background: #3D3399;
+  background: linear-gradient(0deg, #3D3399 0%, #3d3399 100%);
+  width: 145px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  line-height :40px;
+
+}
+
+.btn-2 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-2:before,
+.btn-2:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-2:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn-2:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-2:hover:before {
+  height: 100%;
+}
+
+.btn-2:hover:after {
+  width: 100%;
+}
+
+.btn-2 span:hover {
+  color: #fff;
+}
+
+.btn-2 span:before,
+.btn-2 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-2 span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.btn-2 span:after {
+  width: 0%;
+  height: 2px;
+}
+
+.btn-2 span:hover:before {
+  height: 100%;
+}
+
+.btn-2 span:hover:after {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --progress-bar-width: 200px;
+  --progress-bar-height: 200px;
+  --font-size: 2rem;
+}
+
+.circular-progress {
+  width: var(--progress-bar-width);
+  height: var(--progress-bar-height);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  position: absolute;
+  width: calc(var(--progress-bar-width) - 80px);
+  height: calc(var(--progress-bar-height) - 80px);
+  border-radius: 50%;
+  background-color: lightgrey;
+}
+
+.percentage {
+  position: relative;
+  font-size: var(--font-size);
+  color: rgb(0, 0, 0, 0.8);
+}
+
+#inline-date {
+  display: none;
+}
+
+#viewProjectModal .modal-content {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#viewProjectModal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+#viewProjectModal .modal-title {
+  color: #333;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+#viewProjectModal .modal-body {
+  padding: 20px;
+}
+
+#viewProjectModal .modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+#viewProjectModal .btn-secondary {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #dee2e6;
+}
+
+#viewProjectModal .btn-secondary:hover {
+  background-color: #dee2e6;
+}
+
+#projectDetailsContent h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#projectDetailsContent p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#projectDetailsContent .btn {
+  font-size: 14px;
+}
+
+
+@media (min-width: 576px) {
+  #viewProjectModal .modal-dialog {
+    max-width: 800px;
+  }
+}
+
+#viewProjectModal .modal-dialog {
+  animation: fadeInUp 0.3s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Previous next button */
+
+.pn-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.pn-btn:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* next button*/
+.btn-nxt {
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  padding: 0;
+  color: #3D3399;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease, content 0.3s ease;
+  z-index: 1;
+  border: #3D3399 solid 2px;
+}
+
+.btn-nxt span {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.btn-nxt:hover {
+  background-color: #3D3399;
+  color: white;
+}
+
+.btn-nxt span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 40%;
+  right: -20px;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  font-size: 30px;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.btn-nxt:hover span {
+  padding-right: 15px;
+}
+
+.btn-nxt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Previous button */
+.btn-prv {
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  padding: 0;
+  color: #3D3399;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease, content 0.3s ease;
+  z-index: 1;
+  border: #3D3399 solid 2px;
+}
+
+.btn-prv span {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.btn-prv:hover {
+  background-color: #3D3399;
+  color: white;
+}
+
+.btn-prv span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.btn-prv:hover span {
+  padding-left: 15px;
+}
+
+.btn-prv:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+@media (max-width: 480px) {
+
+  .pn-btn,
+  .btn-nxt,
+  .btn-prv {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .btn-nxt span:after,
+  .btn-prv span:after {
+    font-size: 20px;
+    padding: 4px;
+  }
+}
+
+/* notification badge */
+
+.search-toggle {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-icon {
+  position: absolute;
+  top: 22px;
+  right: 17px;
+  width: 13px;
+  height: 14px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 9px !important;
+  font-weight: 500;
+  padding: 6px 6px !important;
+}
+
+.pending {
+  background-color: blue;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 13px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.reject {
+  background-color: #e50000;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 13px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.approve {
+  background-color: green;
+  width: 250px;
+  height: 60px;
+  padding: 10px;
+  color: white !important;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 13px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.313rem 0.625rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 8px;
+  cursor: default;
+}
+
+.bug,
+.bug:hover {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.success,
+.success:hover {
+  color: #fff;
+  background-color: green !important;
+  border-color: green !important;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.task,
+.task:hover {
+  color: #fff;
+  background-color: blue !important;
+  border-color: blue !important;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.fa-grin-hearts {
+  color: #bc2d75 !important;
+  font-size: 25px;
+}
+
+.bg-ontime {
+  color: #09ba17 !important;
+  font-weight: bold !important;
+}
+
+.bg-late {
+  color: #e11e0c !important;
+  font-weight: bold !important;
+}
+
+.btn-yes,
+.btn-yes:hover {
+  color: #fff;
+  background-color: #3d3399 !important;
+  border-color: #3d3399 !important;
+  box-shadow: unset;
+}
+
+.btn-no {
+  color: black !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: unset;
+}
+
+.btn-no:hover {
+  color: white !important;
+  background-color: #3d3399 !important;
+  border-color: #3d3399 !important;
+}
+
+.btn-download:hover {
+  color: #3d3399 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: unset;
+}
+
+.btn-download {
+  color: white !important;
+  background-color: #3d3399 !important;
+  border-color: #3d3399 !important;
+  width: 31px;
+  border-radius: 7px;
+}
+
+.wordspace {
+  word-spacing: 5px;
+}
+
+.btn-view {
+  color: #fff;
+  background-color: #3d3399;
+  border-color: #3d3399;
+  box-shadow: unset;
+}
+
+.btn-view:hover {
+  color: #3d3399;
+  background-color: white;
+  border-color: #3d3399;
+}
+
+.btn-view:focus,
+.btn-view.focus {
+  color: #3d3399;
+  background-color: white;
+  border-color: #3d3399;
+  box-shadow: unset, 0 0 0 0.2rem rgba(112, 136, 255, 0.5);
+}
+
+.btn-excel {
+  background-color: transparent;
+  border: 2px solid darkgreen;
+  color:darkgreen;
+  font-size: 14px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.btn-excel:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+.bg-secondary-light {
+  color: #b53209 !important;
+  background-color: #fccfc1 !important;
+}
+
+.letterbold {
+  font-weight: bold !important;
+}
+
+.projectname {
+  display: none;
+}
+
+.assigned {
+  display: none;
+}
+
+.assigned-full-name {
+  display: none;
+}
+
+.badge {
+  padding: 0.3em 0.6em;
+  line-height: 1.3;
+  text-transform: capitalize;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.bg-high {
+  color: #fff !important;
+  background-color: rgb(232, 51, 51) !important;
+}
+
+.bg-low {
+  color: white !important;
+  background-color: skyblue !important;
+}
+
+.skills {
+  animation-name: skills;
+}
+
+
+main {
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section article.skills {
+  width: 500px;
+  height: auto;
+}
+
+section article.skills p {
+  z-index: 2;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+section article.skills div span:nth-child(1) {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+section article.skills div span:nth-child(2) {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #5E95E8;
+  height: 100%;
+}
+
+section article.skills div:nth-child(1) span:nth-child(2) {
+  width: 70%;
+  animation-delay: 0;
+}
+
+section article.skills div:nth-child(2) span:nth-child(2) {
+  width: 90%;
+  animation-delay: 0.05s;
+}
+
+section article.skills div:nth-child(3) span:nth-child(2) {
+  width: 80%;
+  animation-delay: 0.1s;
+}
+
+section article.skills div:nth-child(4) span:nth-child(2) {
+  width: 70%;
+  animation-delay: 0.15s;
+}
+
+section article.skills div:nth-child(5) span:nth-child(2) {
+  width: 75%;
+  animation-delay: 0.2s;
+}
+
+section article.skills div:nth-child(6) span:nth-child(2) {
+  width: 60%;
+  animation-delay: 0.25s;
+}
+
+section article.skills div:nth-child(7) span:nth-child(2) {
+  width: 80%;
+  animation-delay: 0.3s;
+}
+
+section article.skills div:nth-child(8) span:nth-child(2) {
+  width: 75%;
+  animation-delay: 0.35s;
+}
+
+section:before {
+  position: absolute;
+  top: -250px;
+  left: -350px;
+  width: 34px;
+  height: 500px;
+  content: '';
+  background: rgba(108, 90, 232, 0.25);
+  transform: rotate(30deg);
+}
+
+section:after {
+  position: absolute;
+  bottom: -250px;
+  right: -350px;
+  width: 34px;
+  height: 500px;
+  content: '';
+  background: rgba(108, 90, 232, 0.25);
+  transform: rotate(30deg);
+}
+
+.skills {
+  animation: skills 1.25s cubic-bezier(0.17, 0.67, 0, 1);
+}
+
+@keyframes skills {
+  0% {
+    left: -500px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}

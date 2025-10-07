@@ -1,0 +1,154 @@
+.modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-header {
+  
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .modal-title {
+    font-size: 25px;
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  .modal-body1 {
+    padding: 20px;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  
+  .checklist {
+    margin-top: 10px;
+  }
+  
+  .checklist li {
+    list-style-type: none;
+    padding-left: 1.5em;
+    position: relative;
+  }
+  
+  .checklist li:before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+  }
+  
+  .modal-body1 {
+    background-color: white;
+  }
+  
+  .box1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box1 select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box1::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box1:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box1 select option {
+    padding: 30px;
+  }
+  
+  .chat-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    height: 200px;
+    margin: auto;
+    overflow-y: auto;
+  }
+  
+  .chat-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-box li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-box .input-group {
+    margin-top: 15px;
+  }
+  
+  .chat-box .btn {
+    border-radius: 5px;
+  }
+  
+  .chat-box strong {
+    font-weight: bold;
+  }
+  
+  .fa-tasks {
+    color: blue
+  }
+  
+  .fa-dot-circle {
+    color: red;
+  }
+  
+  .fa-lightbulb {
+    color: green;
+  }
+  
+  .fa-reply-all {
+    color: brown;
+  }
+  
+  .fa-spinner {
+    color: darkblue;
+  }
+  
+  .fa-calendar-check {
+    color: green;
+  }
+  
+  

@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /jiffy/Employee/
+
+
+RewriteRule ^dashboard$ index.php [L]
+RewriteRule ^project$ project.php [L]
+RewriteRule ^task$ task.php [L]
+RewriteRule ^employee$ employee.php [L]
+RewriteRule ^desk$ desk.php [L]
+RewriteRule ^calender$ calender.php [L]
+RewriteRule ^profile$ user-profile.php [L]
+RewriteRule ^edit-profile$ user-profile-edit.php [L]
+RewriteRule ^sign-in$ sign-in.php [L]
+RewriteRule ^sign-up$ sign-up.php [L]

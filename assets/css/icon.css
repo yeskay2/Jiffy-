@@ -1,0 +1,149 @@
+.icon-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px !important;
+    height: 30px;
+    color: #333333;
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) { 
+    .icon-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px; 
+        margin-top: 18px;
+    }
+}
+
+.icon-button:hover {
+    cursor: pointer;
+}
+
+.icon-button:active {
+    background: transparent;
+}
+
+.icon-button__badge {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    width: 15px;
+    height: 15px;
+    background: #bc2d75;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.icon-button:hover {
+    background-color: white;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.notification img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#userImage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+#workingHours {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#viewAllButton {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+#viewAllButton:hover {
+    border: #bc2d75 2px solid !important;
+}
+
+.letter {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.date1 {
+    font-size: 10px;
+}
+
+.notification {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.cust-title {
+    background-color: #bc2d75;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-next {
+    background-color: white;
+    border-color: #bc2d75;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.btn-next:hover {
+    background-color: #bc2d75;
+    color: aliceblue;
+}
+
+.btn-page {
+    border-color: #bc2d75;
+    border-radius: 50%;
+    background-color: white;
+    color: #bc2d75;
+}
+
+.btn-page.active {
+    background-color: #bc2d75;
+    color: aliceblue;
+}
+
+.btn-np {
+    color: #000;
+    background-color: #fff;
+    border: #3d3399 solid 2px;
+}
+
+.btn-np:hover {
+    color: white;
+    background-color: #3d3399 !important;
+}
+
+
