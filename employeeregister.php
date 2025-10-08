@@ -7,7 +7,7 @@ require_once "./PHPMailer/Exception.php";
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-$conn = mysqli_connect("localhost", "snh6_jiffy2", "mFbmeGA7HhkYqMt7AVxt", "snh6_jiffy2");
+$conn = mysqli_connect("localhost", "root", "", "pms");
  $companyId = base64_decode($_GET['companyid']);
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     error_reporting(E_ALL);

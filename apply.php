@@ -1,7 +1,7 @@
 <?php
 $companyid = base64_decode($_GET['companyid']);
 error_reporting(E_ALL);
-$conn = mysqli_connect("localhost", "snh6_jiffy2", "mFbmeGA7HhkYqMt7AVxt", "snh6_jiffy2");
+$conn = mysqli_connect("localhost", "root", "", "pms");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
