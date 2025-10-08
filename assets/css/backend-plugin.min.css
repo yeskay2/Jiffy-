@@ -1845,7 +1845,8 @@ screen and (max-width:800px) and (orientation:landscape) {
     border: none;
     outline: 0;
     box-shadow: none;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
+    appearance: textfield;
 }
 
 .select2-container--default .select2-results>.select2-results__options {
@@ -3650,8 +3651,7 @@ table.dataTable th {
 .dataTables_wrapper {
     position: relative;
     clear: both;
-    *zoom: 1;
-    zoom: 1
+    zoom: 1;
 }
 
 .dataTables_wrapper .dataTables_length {
@@ -3688,10 +3688,9 @@ table.dataTable th {
     text-align: center;
     text-decoration: none !important;
     cursor: pointer;
-    *cursor: hand;
     color: #333 !important;
     border: 1px solid transparent;
-    border-radius: 2px
+    border-radius: 2px;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
@@ -3758,8 +3757,7 @@ table.dataTable th {
 }
 
 .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
-    *margin-top: -1px;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 
 .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody>table>tbody>tr>td,
