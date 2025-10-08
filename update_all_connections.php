@@ -8,7 +8,7 @@ set_time_limit(120);
 
 $rootDir = __DIR__;
 $oldConnection = 'mysqli_connect("localhost", "snh6_jiffy2", "mFbmeGA7HhkYqMt7AVxt", "snh6_jiffy2")';
-$newConnection = 'mysqli_connect("localhost", "root", "admin", "snh6_jiffy2")';
+$newConnection = 'mysqli_connect("localhost", "root", "", "pms")';
 
 echo "<h2>🔄 Database Connection Update Process</h2>";
 echo "<div style='font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;'>";

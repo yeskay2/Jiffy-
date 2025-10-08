@@ -8,7 +8,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USERNAME', 'root');          // XAMPP default username
 define('DB_PASSWORD', '');              // XAMPP default password (empty)
-define('DB_NAME', 'jiffy_local');       // Local database name
+define('DB_NAME', 'pms');       // Local database name
 
 // Error reporting for development
 error_reporting(E_ALL);

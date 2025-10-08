@@ -3,12 +3,12 @@
 echo "<h3>Database Connection Test</h3>";
 
 try {
-    $conn = new mysqli('localhost', 'root', '', 'pms');
+    $conn = new mysqli('localhost', 'root', 'admin', 'snh6_jiffy2');
     
     if ($conn->connect_error) {
         echo "<p style='color: red;'>❌ Connection failed: " . $conn->connect_error . "</p>";
     } else {
-        echo "<p style='color: green;'>✅ Successfully connected to pms database!</p>";
+        echo "<p style='color: green;'>✅ Successfully connected to snh6_jiffy2 database!</p>";
         
         $result = $conn->query('SHOW TABLES');
         if ($result) {
