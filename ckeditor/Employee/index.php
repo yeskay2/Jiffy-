@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <div class="d-flex align-items-center auth-content">
                            <div class="col-lg-6 bg-primary content-left">
                               <div class="p-3">
-                                 <img src="./../assets/images/Jiffy-logo.png" alt="Image description" class="img-fluid mb-3">
+                                 <img src="./../assets/images/dummy.png" alt="Image description" class="img-fluid mb-3" style="height: 60px; width: 100px;">
                                  <h2 class="mb-2 text-white text-center">Sign In</h2>
                                  <p class="text-center">Login to stay connected.</p>
 

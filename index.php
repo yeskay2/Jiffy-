@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
+  <link href="./../assets/images/dummy logo.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -241,7 +241,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
           <h1 class="h2tag" data-aos="fade-up" data-aos-delay="400">Transforming <br>Time into Value</span>
           </h1><br>
-          <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#bc2d75;">Merry's Info-tech New-Gen Educare</span></a>
+          <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">Merry's Info-tech New-Gen Educare</span></a>
           </h5>
           <!-- <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">

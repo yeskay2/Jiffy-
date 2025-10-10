@@ -11,7 +11,7 @@ if (!file_exists($path)) {
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
         <a href="index.php" class="logo d-flex align-items-center">
-            <img src="<?=$path?>" alt="Logo">
+            <img src="<?=$path?>" alt="Logo" style="height: 60px; width: 100px;">
         </a>
     </div>
 </header>

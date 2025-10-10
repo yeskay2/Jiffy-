@@ -88,7 +88,7 @@ input {
 }
 
 .wrapper .btn:hover {
-    background-color: #bc2d75;
+    background-color: #c72f2e;
     color: white !important;
 }
 
@@ -99,7 +99,7 @@ input {
 }
 
 .wrapper a:hover {
-    color: #bc2d75;
+    color: #c72f2e;
 }
 
 @media(max-width: 380px) {

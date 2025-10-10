@@ -533,7 +533,7 @@
 </script>
 <style>
     .iq-sidebar .iq-menu .active {
-        color: #bc2d75;
+        color: #c72f2e;
         text-decoration: none;
         background-color: #EDEFF6;
         border-left: 4px solid #3d3399;

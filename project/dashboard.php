@@ -38,7 +38,7 @@ if (empty($_SESSION["id"])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dashboard | Jiffy</title>
+    <title>Dashboard | PMS</title>
 
     <!-- Favicon -->
     <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
@@ -111,7 +111,7 @@ if (empty($_SESSION["id"])) {
             width: 100px;
             height: 100px;
             background-color: #fff;
-            border: 3px solid #bc2d75;
+            border: 3px solid #c72f2e;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 50%;
             display: flex;
@@ -161,12 +161,12 @@ if (empty($_SESSION["id"])) {
                                 <h3><svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 384 512" fill="#bc2d75" style="margin-right: 10px;">
                                         <path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z" />
                                     </svg>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="newTasks"></span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="newTasks"></span></span>
                                 </h3>
 
                                 <div class="d-flex align-items-center justify-content-between mt-1">
                                     <p class="mb-0">Total New Task</p>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="newTasks2">0</span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="newTasks2">0</span></span>
                                 </div>
 
                                 <div class="iq-progress-bar bg-primary-light mt-2">
@@ -189,7 +189,7 @@ if (empty($_SESSION["id"])) {
                                 </h3>
                                 <div class="d-flex align-items-center justify-content-between mt-1">
                                     <p class="mb-0">Total Inprogress Task</p>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="inProgressTasks2"></span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="inProgressTasks2"></span></span>
                                 </div>
                                 <div class="iq-progress-bar bg-warning-light mt-2">
                                     <span class="bg-warning iq-progress progress-1" data-percent="50"></span>
@@ -212,7 +212,7 @@ if (empty($_SESSION["id"])) {
                                 </h3>
                                 <div class="d-flex align-items-center justify-content-between mt-1">
                                     <p class="mb-0">Total Involved Projects</p>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="completedTasks2"></span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="completedTasks2"></span></span>
                                 </div>
                                 <div class="iq-progress-bar bg-info-light mt-2">
                                     <span class="bg-info iq-progress progress-1" data-percent="10"></span>
@@ -236,7 +236,7 @@ if (empty($_SESSION["id"])) {
                                 <div class="d-flex align-items-center justify-content-between mt-1">
                                     <p class="mb-0">Today's Due Task</p>
                                     <span class="text-success"></span>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="today2"></span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="today2"></span></span>
                                 </div>
                                 <div class="iq-progress-bar bg-danger-light mt-2">
                                     <span class="bg-danger iq-progress progress-1" data-percent="80"></span>

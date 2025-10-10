@@ -13,7 +13,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                    </span> <a href="https://mineit.tech/" target="_blank" class="">Merry's Info-Tech & New-Gen Educare</a>.
+                    </span> <a href="https://mineit.tech/" target="_blank" class="">GGS info6i6irmation services india pvt. ltd. ,</a>.
                 </div>
             </div>
         </div>

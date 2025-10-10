@@ -23,8 +23,8 @@ if (isset($_GET['year'])) {
     <title>Dashboard | Jiffy</title>
 
     <!-- Favicon -->
-    <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
-    <link href="./../assets/images/Jiffy-favicon.png" rel="apple-touch-icon">
+    <link href="./../assets/images/dummy logo.png" rel="icon">
+    <link href="./../assets/images/dummy logo.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="./../assets/css/backend-plugin.min.css">
     <link rel="stylesheet" href="./../assets/css/style.css">
     <link rel="stylesheet" href="./../assets/css/custom.css">

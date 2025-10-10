@@ -20,8 +20,8 @@ error_reporting(E_ALL);
     <title>Clients | Jiffy</title>
 
     <!-- Favicon -->
-    <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
-    <link href="./../assets/images/Jiffy-favicon.png" rel="apple-touch-icon">
+    <link href="./../assets/images/dummy.png" rel="icon">
+    <link href="./../assets/images/dummy.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="./../assets/css/backend-plugin.min.css">
     <link rel="stylesheet" href="./../assets/css/style.css">
     <link rel="stylesheet" href="./../assets/css/custom.css">

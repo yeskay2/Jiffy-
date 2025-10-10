@@ -61,7 +61,7 @@
                     <h1 class="h2tag" data-aos="fade-up" data-aos-delay="400">Empowering Startups for Success with
                         Jiffy</span>
                     </h1><br>
-                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#bc2d75;">Merry's Info-tech New-Gen Educare</span></a>
+                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">Merry's Info-tech New-Gen Educare</span></a>
                     </h5><br>
                     <p class="text-justify" data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">In the fast-paced
                         world of startups, efficient resource management and streamlined project coordination are

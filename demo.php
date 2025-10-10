@@ -186,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         .card:not(.selected-card):hover,
         .card:not(.selected-card):focus {
-            border: 2px solid #bc2d75;
+            border: 2px solid #c72f2e;
         }
 
         .selected-card {
@@ -242,7 +242,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .checkbox-container input:checked~.checkmark {
-            background-color: #bc2d75;
+            background-color: #c72f2e;
         }
 
         .checkmark:after {

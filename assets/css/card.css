@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
+
 .wrapper1 {
     flex: 0 0 100%;
     max-width: 100%;
@@ -25,9 +26,13 @@
     }
 }
 
-.fab {
-    color: #bc2d75;
-    font-size: 24px;
+/* Target FontAwesome brand icons specifically */
+.fab,
+i.fab,
+.fab::before,
+i.fab::before {
+    color: #c72f2e !important;
+    font-size: 24px !important;
 }
 
 .fab:hover {
@@ -90,7 +95,7 @@
 
 .title-1 {
     margin-top: 40px;
-    color: #bc2d75;
+    color: #c72f2e;
     padding: 3%;
     text-align: center;
     font-weight: bold;
@@ -100,7 +105,7 @@
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
-    color: #bc2d75;
+    color: #c72f2e;
 }
 
 .back-face ul {
@@ -237,7 +242,7 @@ span.badge.badge-light {
     }
 
     75% {
-        color: #bc2d75;
+        color: #c72f2e;
     }
 }
 
@@ -298,7 +303,7 @@ span.badge.badge-light {
     }
 
     75% {
-        color: #bc2d75;
+        color: #c72f2e;
     }
 }
 

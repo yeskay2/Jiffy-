@@ -36,7 +36,7 @@
     right: -2px;
     width: 15px;
     height: 15px;
-    background: #bc2d75;
+    background: #c72f2e;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -106,32 +106,32 @@
 }
 
 .cust-title {
-    background-color: #bc2d75;
+    background-color: #c72f2e;
     border-radius: 10px;
     text-align: center;
 }
 
 .btn-next {
     background-color: white;
-    border-color: #bc2d75;
+    border-color: #c72f2e;
     border-radius: 50%;
     margin: 0 5px;
 }
 
 .btn-next:hover {
-    background-color: #bc2d75;
+    background-color: #c72f2e;
     color: aliceblue;
 }
 
 .btn-page {
-    border-color: #bc2d75;
+    border-color: #c72f2e;
     border-radius: 50%;
     background-color: white;
-    color: #bc2d75;
+    color: #c72f2e;
 }
 
 .btn-page.active {
-    background-color: #bc2d75;
+    background-color: #c72f2e;
     color: aliceblue;
 }
 

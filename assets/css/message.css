@@ -37,7 +37,7 @@
     display: grid;
     place-items: center;
     text-decoration: none;
-    color: #bc2d75;
+    color: #c72f2e;
     font-size: 20px;
 }
 
@@ -79,7 +79,7 @@
     font-size: 18px;
     font-weight: 600;
     margin: 0 0 5px 0;
-    color: #bc2d75;
+    color: #c72f2e;
 }
 
 #mainSection {
@@ -113,7 +113,7 @@
 #mainSection .request .name,
 #mainSection .response .name {
     font-size: 16px;
-    color: #bc2d75;
+    color: #c72f2e;
 }
 
 #mainSection .request .name {

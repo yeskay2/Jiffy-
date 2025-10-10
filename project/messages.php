@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     font-size: 16px;
     font-weight: 600;
     margin: 0 0 5px 0;
-    color: #bc2d75;
+    color: #c72f2e;
     width: 80%;
 }
 #header p {

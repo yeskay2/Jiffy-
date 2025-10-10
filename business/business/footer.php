@@ -13,7 +13,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                    </span> <a href="https://mineit.tech/" target="_blank" class="">Merry's Info-Tech & New-Gen Educare</a>.
+                    </span> <a href="https://mineit.tech/" target="_blank" class="">Dr Karthikeyan Saminathan</a>.
                 </div>
             </div>
         </div>

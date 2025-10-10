@@ -54,7 +54,7 @@ $userid = $_SESSION["user_id"];
                                 <h3><svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512" fill="#ed6f07">
                                         <path d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
                                     </svg>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="newTasks">Loading...</span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="newTasks">Loading...</span></span>
                                 </h3>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ $userid = $_SESSION["user_id"];
                                 <h3><svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512" fill="#3759e1">
                                         <path d="M448 160H320V128H448v32zM48 64C21.5 64 0 85.5 0 112v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zM448 352v32H192V352H448zM48 288c-26.5 0-48 21.5-48 48v64c0 26.5 21.5 48 48 48H464c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48H48z"></path>
                                     </svg>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="inProgressTasks">Loading...</span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="inProgressTasks">Loading...</span></span>
                                 </h3>
                             </div><br>
                         </div>
@@ -84,7 +84,7 @@ $userid = $_SESSION["user_id"];
                                 <h3><svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 448 512" fill="#68d241">
                                         <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path>
                                     </svg>
-                                    <span class="counter" style="color: #bc2d75;">&nbsp;<span id="completedTasks">Loading...</span></span>
+                                    <span class="counter" style="color: #c72f2e;">&nbsp;<span id="completedTasks">Loading...</span></span>
                                 </h3>
                             </div>
                         </div>

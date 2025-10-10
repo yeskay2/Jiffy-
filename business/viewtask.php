@@ -83,7 +83,7 @@ if(isset($_GET['taskid'])){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Task | JIFFY</title>
+    <title>PMS</title>
     <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
     <link href="./../assets/images/Jiffy-favicon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="./../assets/css/backend-plugin.min.css">
@@ -239,7 +239,7 @@ if(isset($_GET['taskid'])){
             height: 100px;
             background-color: #fff;
             border-radius: 50%;
-            border: 2px solid #bc2d75;
+            border: 2px solid #c72f2e;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             display: flex;
             justify-content: center;

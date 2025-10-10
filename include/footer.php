@@ -10,7 +10,7 @@
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-    Designed by <a href="https://mineit.tech/" style="text-decoration: none;" target="_blank;">Merry's Info-Tech & New-Gen Educare</a>
+    Designed by <a href="https:/" style="text-decoration: none;" target="_blank;">Dr Karthikeyan Saminathan</a>
   </div>
 </div>
 </footer><!-- End Footer -->

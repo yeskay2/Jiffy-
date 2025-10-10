@@ -902,7 +902,7 @@ public function addTimeline($userid) {
                                                     </tr>
                                                     <tr>
                                                         <td style="text-align:center;">
-                                                            <a href="https://mineit.tech/" target="_blank" style="font-size:14px; color:#bc2d75; line-height:18px; margin:0 0 0; text-decoration:none;">&copy; <strong>' . $company_name . '</strong></a>
+                                                            <a href="https://mineit.tech/" target="_blank" style="font-size:14px; color:#c72f2e; line-height:18px; margin:0 0 0; text-decoration:none;">&copy; <strong>' . $company_name . '</strong></a>
                                                         </td>
                                                     </tr>
                                                     <tr>

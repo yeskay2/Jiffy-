@@ -66,14 +66,14 @@ mysqli_close($conn);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .header {
-            background-color: #bc2d75;
+            background-color: #c72f2e;
             color: #fff;
             padding: 10px;
             text-align: center;
             border-radius: 10px 10px 0 0;
         }
         .btn-custom {
-            background-color: #bc2d75;
+            background-color: #c72f2e;
             color: #fff;
         }
         .disabled-slot {

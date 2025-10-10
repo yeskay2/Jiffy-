@@ -351,7 +351,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #bc2d75;
+  color: #c72f2e;
 }
 
 .navbar .getstarted,
@@ -1021,20 +1021,20 @@ section {
 }
 
 .services .service-box.darkpink {
-  border-bottom: 3px solid #bc2d75;
+  border-bottom: 3px solid #c72f2e;
 }
 
 .services .service-box.darkpink .icon {
-  color: #bc2d75;
+  color: #c72f2e;
   background: #fcf6f9;
 }
 
 .services .service-box.darkpink .read-more {
-  color: #bc2d75;
+  color: #c72f2e;
 }
 
 .services .service-box.darkpink:hover {
-  background: #bc2d75;
+  background: #c72f2e;
 }
 
 .services .service-box.green {
@@ -1210,7 +1210,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #bc2d75;
+  background: #c72f2e;
   color: #fff;
 }
 
@@ -1561,7 +1561,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #bc2d75;
+  background-color: #c72f2e;
 }
 
 .testimonials .swiper-slide {
@@ -2853,7 +2853,7 @@ i.bi-check-circle-fill+h4 {
 @keyframes zoomInOut {
     0%, 100% {
         transform: scale(1); /* Initial and final state: no zoom */
-        background-color:#bc2d75;
+        background-color:#c72f2e;
         color:#fff;
         border:none;
     }

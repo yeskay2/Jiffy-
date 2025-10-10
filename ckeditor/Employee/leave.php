@@ -211,7 +211,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="card">
                         <div class="card-body">
                             <table id="dataTable" class="table table-hover progress-table text-center">
-                                <thead class="text-center" style="background-color: #bc2d75; color:#fff;">
+                                <thead class="text-center" style="background-color: #c72f2e; color:#fff;">
                                     <tr>
                                         <th>SI.No</th>
                                         <th width="150">Type</th>

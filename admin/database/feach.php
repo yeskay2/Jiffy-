@@ -167,7 +167,7 @@ class ProjectManager {
                     <body style=\"font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0;\">
                         <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #ffffff; max-width: 1000px; margin: 0 auto; border-collapse: collapse;\">
                             <tr>
-                                <td style=\"padding: 20px 0; text-align: center; background-color: #bc2d75;\">
+                                <td style=\"padding: 20px 0; text-align: center; background-color: #c72f2e;\">
                                     <h1 style=\"color: #fff;\">Your Resume Has Been Shortlisted</h1>
                                 </td>
                             </tr>
@@ -179,7 +179,7 @@ class ProjectManager {
                                     <p style=\"font-weight:bold;\">Interview Details</p>
                                     <p>Please click the button below to accept the interview invitation:</p>
                                     <p style=\"text-align: center;\">
-                                        <a href='$acceptLink' style=\"display: inline-block; background-color: #bc2d75; color: #fff; padding: 12px 24px; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 5px; margin-top: 20px;\">Accept Interview</a>
+                                        <a href='$acceptLink' style=\"display: inline-block; background-color: #c72f2e; color: #fff; padding: 12px 24px; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 5px; margin-top: 20px;\">Accept Interview</a>
                                     </p>
                                     <p>Thank you for your attention!</p>
                                     <p>If you have any questions or need further information, please do not hesitate to reach us.</p>
@@ -187,7 +187,7 @@ class ProjectManager {
                                 </td>
                             </tr>
                             <tr>
-                                <td style=\"padding: 20px; text-align: center; background-color: #bc2d75;\">
+                                <td style=\"padding: 20px; text-align: center; background-color: #c72f2e;\">
                                     <p style=\"color: #fff; margin: 0;\">&copy; " . date("Y") . " $company_name</p>
                                 </td>
                             </tr>
@@ -242,7 +242,7 @@ class ProjectManager {
                         <body style=\"font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0;\">
                             <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" style=\"background-color: #ffffff; max-width: 1000px; margin: 0 auto; border-collapse: collapse;\">
                                 <tr>
-                                    <td style=\"padding: 20px 0; text-align: center; background-color: #bc2d75;\">
+                                    <td style=\"padding: 20px 0; text-align: center; background-color: #c72f2e;\">
                                         <h1 style=\"color: #fff;\">Job Offer - $jobtitle at $company_name</h1>
                                     </td>
                                 </tr>
@@ -258,7 +258,7 @@ class ProjectManager {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style=\"padding: 20px; text-align: center; background-color: #bc2d75;\">
+                                    <td style=\"padding: 20px; text-align: center; background-color: #c72f2e;\">
                                         <p style=\"color: #fff; margin: 0;\">&copy; " . date("Y") . " $company_name</p>
                                     </td>
                                 </tr>

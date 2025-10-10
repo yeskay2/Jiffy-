@@ -97,7 +97,7 @@ if ($result) {
             position: fixed;
             bottom: 20px;
             z-index: 999;
-            background-color: #bc2d75;
+            background-color: #c72f2e;
             color: #fff;
             border: none;
             border-radius: 5px;

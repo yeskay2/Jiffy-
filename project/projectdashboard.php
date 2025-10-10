@@ -104,7 +104,7 @@ ini_set('display_errors', 1);
             width: 100px;
             height: 100px;
             background-color: #fff;
-            border: 3px solid #bc2d75;
+            border: 3px solid #c72f2e;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             border-radius: 50%;
             display: flex;
