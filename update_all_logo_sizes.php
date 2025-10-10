@@ -5,46 +5,46 @@ echo "<h2>Adding 60px height styling to all remaining logo images</h2>\n";
 $updates = [
     // Accounts files
     'Accounts/topbar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     'Accounts/sidebar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     
     // Management files
     'management/topbar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     'management/sidebar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     
     // Project files
     'project/topbar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     'project/topbar_rs.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     
     // CKEditor files  
     'ckeditor/Employee/topbar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     'ckeditor/Employee/sidebar.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="logo">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="logo">',
+        'new' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
     ],
     'ckeditor/Employee/index.php' => [
-        'old' => '<img src="./../assets/images/dummy.png" alt="Image description" class="img-fluid mb-3">',
-        'new' => '<img src="./../assets/images/dummy.png" alt="Image description" class="img-fluid mb-3" style="height: 60px; width: 100px;">'
+        'old' => '<img src="./../assets/images/gem.png" alt="Image description" class="img-fluid mb-3">',
+        'new' => '<img src="./../assets/images/gem.png" alt="Image description" class="img-fluid mb-3" style="height: 60px; width: 100px;">'
     ]
 ];
 
@@ -84,7 +84,7 @@ if (file_exists($project_sidebar)) {
     $original_content = $content;
     
     // Replace all instances in project sidebar
-    $content = str_replace('<img src="./../assets/images/dummy.png" alt="logo">', '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">', $content);
+    $content = str_replace('<img src="./../assets/images/gem.png" alt="logo">', '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">', $content);
     
     if ($content !== $original_content) {
         file_put_contents($project_sidebar, $content);

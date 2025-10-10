@@ -3,7 +3,7 @@
     <div class="iq-sidebar  sidebar-default ">
         <div class="iq-sidebar-logo d-flex align-items-center">
             <a href="dashboard.php" class="header-logo">
-                <img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">
+                <img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">
             </a>
             <div class="iq-menu-bt-sidebar ml-0">
                 <i class="fas fa-angle-double-left wrapper-menu"></i>
@@ -172,7 +172,7 @@
     <div class="iq-sidebar  sidebar-default ">
         <div class="iq-sidebar-logo d-flex align-items-center">
             <a href="dashboard.php" class="header-logo">
-                <img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">
+                <img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">
             </a>
             <div class="iq-menu-bt-sidebar ml-0">
                 <i class="fas fa-angle-double-left wrapper-menu"></i>
@@ -332,7 +332,7 @@
     <div class="iq-sidebar  sidebar-default ">
         <div class="iq-sidebar-logo d-flex align-items-center">
             <a href="dashboard.php" class="header-logo">
-                <img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">
+                <img src="./../assets/images/gem.png" alt="logo" style="height: 100px; width: 210px;">
             </a>
             <div class="iq-menu-bt-sidebar ml-0">
                 <i class="fas fa-angle-double-left wrapper-menu"></i>

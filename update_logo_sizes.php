@@ -30,13 +30,13 @@ foreach ($files_to_update as $file) {
         // Replace logo img tags without styling to add consistent 60px height
         $patterns = [
             // Pattern 1: Basic logo without styling
-            '/<img src="\.\.\/\.\.\/assets\/images\/dummy\.png" alt="logo">/' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">',
+            '/<img src="\.\.\/\.\.\/assets\/images\/dummy\.png" alt="logo">/' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">',
             
             // Pattern 2: Logo with just class
-            '/<img src="\.\.\/\.\.\/assets\/images\/dummy\.png" alt="Image description" class="img-fluid mb-3">/' => '<img src="./../assets/images/dummy.png" alt="Image description" class="img-fluid mb-3" style="height: 60px; width: 100px;">',
+            '/<img src="\.\.\/\.\.\/assets\/images\/dummy\.png" alt="Image description" class="img-fluid mb-3">/' => '<img src="./../assets/images/gem.png" alt="Image description" class="img-fluid mb-3" style="height: 60px; width: 100px;">',
             
             // Pattern 3: Other variations
-            '/<img src="\.\.\/assets\/images\/dummy\.png" alt="logo">/' => '<img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">'
+            '/<img src="\.\.\/assets\/images\/dummy\.png" alt="logo">/' => '<img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">'
         ];
         
         foreach ($patterns as $pattern => $replacement) {

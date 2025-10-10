@@ -49,7 +49,7 @@
             <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
                 <i class="ri-menu-line wrapper-menu"></i>
                 <a href="dashboard.php" class="header-logo">
-                    <img src="./../assets/images/dummy.png" alt="logo" style="height: 60px; width: 100px;">
+                    <img src="./../assets/images/gem.png" alt="logo" style="height: 60px; width: 100px;">
                 </a>
             </div>
             <div class="navbar-breadcrumb">
