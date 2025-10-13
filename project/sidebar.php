@@ -329,10 +329,13 @@
     </div>
     </div>
 <?php } else { ?>
-    <div class="iq-sidebar  sidebar-default ">
+     <div class="iq-sidebar  sidebar-default ">
         <div class="iq-sidebar-logo d-flex align-items-center">
             <a href="dashboard.php" class="header-logo">
-                <img src="./../assets/images/gem.png" alt="logo" style="height: 100px; width: 210px;">
+                <img src="./../assets/images/gem.png"
+     alt="logo"
+     style="height: 100px; width: 200px; border-radius: 15px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); background-color: #fff; padding: 8px;">
+
             </a>
             <div class="iq-menu-bt-sidebar ml-0">
                 <i class="fas fa-angle-double-left wrapper-menu"></i>

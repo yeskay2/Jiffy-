@@ -10790,7 +10790,7 @@ a.text-white:focus {
   top: 0;
   width: 260px;
   height: 100%;
-  background: linear-gradient(180deg, #3B4DA0 0%, #2E3A8C 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   -ms-transition: all 0.6s ease-in-out;
@@ -10855,15 +10855,17 @@ a.text-white:focus {
 }
 
 .iq-sidebar-menu .iq-menu li a {
-  font-size: 16px;
-  white-space: nowrap;
-  display: block;
-  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  white-space: normal;
+  display: inline-block;
+  color: #000000;
   position: relative;
   padding: 15px 30px 15px 30px;
   margin-bottom: 5px;
   margin-right: 0px;
-  line-height: 18px;
+  line-height: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10882,7 +10884,7 @@ a.text-white:focus {
 }
 
 .iq-sidebar-menu .iq-menu li a i {
-  vertical-align: middle;
+  vertical-align: normal;
   width: 20px;
   display: inline-block;
   margin-right: 8px;
@@ -11557,6 +11559,8 @@ a.text-white:focus {
   display: block;
   margin-left: 0px;
   padding: 20px 0;
+  font-size: 25px;
+  background: transparent;
 }
 
 .iq-top-navbar .breadcrumb {
@@ -12994,7 +12998,7 @@ body.sidebar-main .iq-top-navbar {
 
 .nav-pills .nav-link.active {
   color: #fff;
-  background-color: #eac0d5 !important;
+  background-color: #c72f2e !important;
 }
 
 .nav-pills .show > .nav-link {
@@ -15424,7 +15428,7 @@ input[type="button"].btn-block {
 }
 
 .br-theme-fontawesome-stars .br-widget a:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome  Free";
   font-weight: 900;
 }
 
@@ -17193,7 +17197,7 @@ button.bg-skyblue:focus {
 
 .bg-primary {
   color: #fff !important;
-  background-color: #c72f2e !important;
+  background-color: #676fc7 !important;
 }
 
 a.bg-primary:hover,
@@ -26861,7 +26865,7 @@ h5 {
   margin: 0px;
   line-height: 1.5;
   color: #140f49;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 
@@ -26871,9 +26875,9 @@ h5 a {
 
 h6 {
   font-family: "Manrope", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #140f49;
   font-size: 1em;
 }
@@ -27477,6 +27481,7 @@ label {
   background: #f8f7f7;
   font-size: 14px;
   color: #605c8d;
+  border-radius: 0%;
 }
 
 .form-control:focus {

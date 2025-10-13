@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MINE | Jiffy</title>
+    <title>GGS | Thalam</title>
     <!-- Favicon -->
     <link href="./../assets/images/Jiffy-favicon.png" rel="icon">
 

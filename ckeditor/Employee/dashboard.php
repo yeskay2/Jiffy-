@@ -239,7 +239,7 @@ $userid = $_SESSION["user_id"];
                             <script>
                                 document.write(new Date().getFullYear())
                             </script>©
-                        </span> <a href="#" class="">MINE</a>
+                        </span> <a href="#" class="">GGS</a>
                     </div>
                 </div>
             </div>

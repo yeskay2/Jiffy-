@@ -126,7 +126,7 @@ i.fab::before {
     margin: 0 5px;
     line-height: 38px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #ffffff;   /*Let's connect through ... Logo*/
     transition: all 0.5s ease;
 }
 
@@ -289,12 +289,12 @@ span.badge.badge-light {
     0%,
     100% {
         transform: scale(1);
-        color: #66ffff;
+        color: #ff6666;
     }
 
     25% {
         transform: scale(1.1);
-        color: #00ff00;
+        color: #2b7592;
     }
 
     50% {
@@ -303,7 +303,7 @@ span.badge.badge-light {
     }
 
     75% {
-        color: #c72f2e;
+        color: #2e47d6;
     }
 }
 
@@ -334,7 +334,7 @@ span.badge.badge-light {
 
 
 .styled-button {
-    background-color: #574cc0;
+    background-color: #ffffff;
     color: white;
     border: none;
     border-radius: 5px;
