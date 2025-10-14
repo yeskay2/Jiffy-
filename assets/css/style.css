@@ -211,7 +211,7 @@ sup {
 }
 
 a {
-  color: #c72f2e;
+  color: #d84a4a;
   text-decoration: none;
   background-color: transparent;
 }
@@ -269,6 +269,7 @@ caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
+  
   text-align: left;
   caption-side: bottom;
 }
@@ -10860,7 +10861,7 @@ a.text-white:focus {
   font-weight: 600;
   white-space: normal;
   display: inline-block;
-  color: #000000;
+  color: #2e2e2e;
   position: relative;
   padding: 15px 30px 15px 30px;
   margin-bottom: 5px;
@@ -11028,7 +11029,7 @@ a.text-white:focus {
 .sidebar-default .iq-sidebar-menu .iq-menu > li.active > a {
     color: #f8f7f7;
     text-decoration: none;
-    background-color: #c72f2e;;
+    background-color: #d84a4a;;
     border-left: 4px solid #c72f2e;
     transition: all 500ms ease;
     border-radius: 5px;
@@ -11980,7 +11981,7 @@ body.sidebar-main .iq-top-navbar {
   right: 0;
   left: auto;
   top: 0;
-  background: #c72f2e;;
+  background: #d84a4a;;
   color: #fff;
   height: 40px;
   width: 40px;
@@ -16136,7 +16137,7 @@ body.tab-horizontal .iq-footer {
   text-transform: capitalize;
   font-size: 17px;
   line-height: 22px;
-  background: #c72f2e;
+  background: #d84a4a;
   color: #fff !important;
   border: 0px;
   font-weight: 700 !important;
@@ -27823,7 +27824,7 @@ table.dataTable thead th {
 table.dataTable thead td {
   padding: 10px 18px;
   border-bottom: 1px solid #e0e2db !important;
-  background-color: #c72f2e;
+  background-color: #d84a4a;
   color: #fff !important;
 }
 

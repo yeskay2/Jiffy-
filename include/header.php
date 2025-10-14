@@ -1,8 +1,8 @@
 <?php
-$path = "./../assets2/img/Jiffy-logo.png";
+$path = "./../assets2/img/gem.png";
 
 if (!file_exists($path)) {
-    $path = "assets2/img/Jiffy-logo.png"; 
+    $path = "assets2/img/gem.png"; 
 }
 ?>
 <header id="header" class="header fixed-top">

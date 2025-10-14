@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                                     <p><strong>From:</strong></p>
                                     <p>$user_full_name</p>
                                     <p>$user_role</p>
-                                    <p>MERRY'S INFO-TECH NEW-GEN EDUCARE</p>
+                                    <p>GGS</p>
                                     <p><strong>Subject: Leave Application</strong></p>
                                     <p>Dear Sir/Madam ,</p>
                                     <p>$description </p>

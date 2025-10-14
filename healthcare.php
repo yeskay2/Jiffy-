@@ -61,7 +61,7 @@
                     <h1 class="h2tag" data-aos="fade-up" data-aos-delay="400">Empowering Healthcare Excellence with
                         Jiffy</span>
                     </h1><br>
-                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">Merry's Info-tech New-Gen Educare</span></a>
+                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">GGS</span></a>
                     </h5><br>
                     <p class="text-justify" data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">In the demanding
                         healthcare sector, efficient employee management is crucial to providing quality patient care.

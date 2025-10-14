@@ -104,7 +104,7 @@
                                     Let's Connect Through ...</span>
                                 </p>
                             </div>
-                            <ul style="margin-bottom: -10px;">
+                            <ul C">
                                 <div data-toggle="" data-placement="bottom" title="Teams">
                                     <a href="https://teams.live.com/l/invite/FEAaynm6-v4owfj-xo"><i
                                             class="fab fa-microsoft"></i></a>

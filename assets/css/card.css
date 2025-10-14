@@ -31,7 +31,7 @@
 i.fab,
 .fab::before,
 i.fab::before {
-    color: #c72f2e !important;
+    color: #d84a4a !important;
     font-size: 24px !important;
 }
 
@@ -143,7 +143,7 @@ body {
     font-family: Roboto, sans-serif;
     line-height: 1.5;
     color: #212529;
-    background-color: #dddddd;
+    background-color: #f5f6fa;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -162,7 +162,7 @@ span.badge.badge-light {
 
 .card-img-overlay.two {
     height: 110px;
-    background-color: #b93d3d !important;
+    background-color: #d84a4a!important;
     width: 100%;
     display: block;
     position: relative;

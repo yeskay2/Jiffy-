@@ -60,7 +60,7 @@
                     <h1 class="h2tag" data-aos="fade-up" data-aos-delay="400">Corporate Office Solutions with
                         Jiffy</span>
                     </h1><br>
-                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">Merry's Info-tech New-Gen Educare</span></a>
+                    <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">GGS</span></a>
                     </h5><br>
                     <p class="text-justify" data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Corporate offices are dynamic environments with numerous employees, departments, and projects. Jiffy is an invaluable tool for corporate offices, offering a comprehensive suite of features to streamline workforce management, project coordination, and communication within the organization.</p>
                     <!-- <div data-aos="fade-up" data-aos-delay="600">

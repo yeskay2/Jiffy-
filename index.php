@@ -241,7 +241,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
           <h1 class="h2tag" data-aos="fade-up" data-aos-delay="400">Transforming <br>Time into Value</span>
           </h1><br>
-          <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">Merry's Info-tech New-Gen Educare</span></a>
+          <h5 data-aos="fade-up" data-aos-delay="400" style="font-family: Montserrat Bold;">Powered by <a href="https://mineit.tech/" target="_blank;"><span style="color:#c72f2e;">GGS</span></a>
           </h5>
           <!-- <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
@@ -1300,7 +1300,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </section><!-- End Contact Section -->
 
 
-    <div class="weboverlay" id="overlay"></div>
+  <!--   <div class="weboverlay" id="overlay"></div>
     <div class="webpopup-form" id="popupForm">
       <div class="close-popupbtn" onclick="closePopup()">&times</div>
       <div class="col-lg-12">
@@ -1318,9 +1318,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <div class="col-md-6">
               <input type="text" name="organization" class="form-control popup-text" placeholder="Enter organization name *" required pattern="[A-Za-z]+" title="Please enter letters only">
-            </div>
-            <div class="col-md-12">
-              <textarea class="form-control popup-text" name="message" rows="6" placeholder="Message *" required></textarea>
+             <textarea class="form-control popup-text" name="message" rows="6" placeholder="Message *" required></textarea>
             </div>
             <div class="col-md-12 text-center">
               <div class="error-message"><?php echo $error_message ?? ''; ?></div>
@@ -1331,7 +1329,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
       </div>
     </div>
-    </div>
+    </div>  </div>
+            <div class="col-md-12"> -->
+           
   </main><!-- End #main -->
 
   <?php include './include/footer.php'; ?>
