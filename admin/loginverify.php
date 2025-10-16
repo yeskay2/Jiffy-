@@ -181,20 +181,20 @@ class UserAuthenticator
         $html = "<html>
             <body>
                 <div class='container-fluid' style='max-width: 600px; margin: 0 auto;'>
-                    <img src='https://jiffy.mineit.tech/assets2/img/Jiffy-logo.png' width='800px' height='100px' alt='Jiffy Logo' class='text-left'>
+                    <img src='https://jiffy.mineit.tech/assets2/img/gem.png' width='700px' height='80px' alt='Jiffy Logo' class='text-left'>
                     <hr>
                     Dear, $fullName<br>
                     <p class='text-justify'>I hope this email finds you well. I would like to take a moment to address an important matter that concerns our company's productivity and teamwork. Recently, we have noticed a consistent pattern of late logins to work from certain team members, including yourself. While we understand that unforeseen circumstances can sometimes cause delays, it's essential for all of us to uphold a consistent schedule to ensure the smooth functioning of our teams and projects.<br><br> Punctuality is not only a sign of professionalism, but it also helps us create a work environment where everyone can rely on each other to be present and ready to contribute. Timely logins contribute to effective communication, collaboration, and the overall success of our projects.<br><br>We kindly request your cooperation in ensuring that you arrive on time and log in promptly moving forward. If there are any challenges you were facing that are affecting your ability to be punctual, please feel free to reach out to your immediate supervisor or our HR department. We are here to support you and address any concerns you may have. Let's work together to maintain a positive and efficient work environment for the benefit of all team members.<br> Your commitment to punctuality is greatly appreciated and does not go unnoticed.
                         Thank you for your attention to this matter.</p>
                     <hr>
-                    <p class='text-center'>Powered by Jiffy</p>
+                    <p class='text-center'>Powered by GGS</p>
                 </div>
             </body>
         </html>";
 
         $this->mail->Subject = 'Importance of Timely Logins';
         $this->mail->Body = $html;
-        $this->mail->AddAddress('recipient@example.com');
+        $this->mail->AddAddress('recipients@example.com');
 
         try {
             $this->mail->Send();
