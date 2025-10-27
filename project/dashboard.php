@@ -48,14 +48,13 @@ if (empty($_SESSION["id"])) {
     <link rel="stylesheet" href="./../assets/css/custom.css">
     <link rel="stylesheet" href="./../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
     <link rel="stylesheet" href="./../assets/vendor/remixicon/fonts/remixicon.css">
-    <link rel="stylesheet" href="assets/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css">
-    <link rel="stylesheet" href="assets/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css">
-    <link rel="stylesheet" href="assets/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css">
+    <link rel="stylesheet" href="./../assets/vendor/tui-calendar/tui-calendar/dist/tui-calendar.css">
+    <link rel="stylesheet" href="./../assets/vendor/tui-calendar/tui-date-picker/dist/tui-date-picker.css">
+    <link rel="stylesheet" href="./../assets/vendor/tui-calendar/tui-time-picker/dist/tui-time-picker.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./../assets/css/icon.css">
     <link rel="stylesheet" href="./../assets/css/card.css">
-    <link rel="stylesheet" href="./chat/chat.css">
     <style>
         #popup {
             width: 300px;
@@ -691,7 +690,6 @@ if (empty($_SESSION["id"])) {
                 });
             }
 
-            var userid = userid;
             updateDashboard(userid);
             var throttleUpdate = _.throttle(function() {
                 updateDashboard(userid);
@@ -715,12 +713,15 @@ if (empty($_SESSION["id"])) {
                 xhr.send();
             }
             var currentDate = new Date().toISOString().split('T')[0];
-            document.getElementById('inline-date').value = currentDate;
-            fetchEmployees(currentDate);
-            document.getElementById('inline-date').addEventListener('change', function() {
-                var selectedDate = this.value;
-                fetchEmployees(selectedDate);
-            });
+            var inlineDateElement = document.getElementById('inline-date');
+            if (inlineDateElement) {
+                inlineDateElement.value = currentDate;
+                fetchEmployees(currentDate);
+                inlineDateElement.addEventListener('change', function() {
+                    var selectedDate = this.value;
+                    fetchEmployees(selectedDate);
+                });
+            }
 
             let currentRuleSlide = 0;
             const ruleSlides = document.querySelectorAll('#office-slider .slider-content .slide');
@@ -770,7 +771,8 @@ if (empty($_SESSION["id"])) {
             const popupDetails = document.getElementById('popup-details');
             const popupdate = document.getElementById('popup-date');
 
-            eventLinks.forEach(link => {
+            if (popup && popupTitle && popupDetails && popupdate) {
+                eventLinks.forEach(link => {
                 link.addEventListener('click', function(event) {
                     event.preventDefault();
                     const title = this.getAttribute('data-title');
@@ -785,17 +787,23 @@ if (empty($_SESSION["id"])) {
                     popup.style.display = 'block';
                 });
             });
-
+            }
 
             function closePopup() {
-                popup.style.display = 'none';
+                const popup = document.getElementById('event-details-popup');
+                if (popup) {
+                    popup.style.display = 'none';
+                }
             }
 
             document.addEventListener("DOMContentLoaded", function() {
                 const eventModalContent = document.getElementById('eventModalContent');
-                const eventModal = new bootstrap.Modal(document.getElementById('eventModal'));
+                const eventModalElement = document.getElementById('eventModal');
+                
+                if (eventModalContent && eventModalElement) {
+                    const eventModal = new bootstrap.Modal(eventModalElement);
 
-                const readMoreLinks = document.querySelectorAll('.read-more1');
+                    const readMoreLinks = document.querySelectorAll('.read-more1');
                 readMoreLinks.forEach(function(link) {
                     link.addEventListener('click', function(event) {
                         event.preventDefault();
@@ -824,13 +832,13 @@ if (empty($_SESSION["id"])) {
                         eventModal.show();
                     });
                 });
-
-                updateSliderControls();
+                }
             });
 
 
 
             function performSearch() {
+                if (!taskSearchInput) return;
                 const searchQuery = taskSearchInput.value.toLowerCase();
                 const taskCards = document.querySelectorAll(".task-card1");
                 taskCards.forEach(function(card) {
@@ -843,7 +851,9 @@ if (empty($_SESSION["id"])) {
                 });
             }
             const taskSearchInput = document.getElementById("taskSearchInput");
-            taskSearchInput.addEventListener("input", performSearch);
+            if (taskSearchInput) {
+                taskSearchInput.addEventListener("input", performSearch);
+            }
             $(function() {
                 $("#chat-circle").click(function() {
                     $("#chat-circle").toggle('scale');
@@ -886,7 +896,7 @@ if (empty($_SESSION["id"])) {
                     dl = l != 'dataLayer' ? '&l=' + l : '';
                 j.async = true;
                 j.src =
-                    'www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
                 f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', 'GTM-WNGH9RL');
             window.tag_manager_event = 'dashboard-free-preview';

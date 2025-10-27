@@ -1,6 +1,6 @@
 (function($) {
     var notificationSound = new Audio('./script/msg.mp3');
-    var messageSound = new Audio('./script/message.mp3');
+    var messageSound = new Audio('./script/msg.mp3');
 
     function playNotificationSound() {
         notificationSound.play();

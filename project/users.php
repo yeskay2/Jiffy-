@@ -16,7 +16,7 @@ $userid = $_SESSION["user_id"];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Chat | Jiffy</title>
+    <title>Chat | PMS</title>
 
     <!-- Favicon -->
     <link href="./../assets/images/Jiffy-favicon.png" rel="icon">

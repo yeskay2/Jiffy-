@@ -775,7 +775,7 @@ function filterResponses(filter, modalId) {
     <script src="script/script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./../assets2/js/main.js"></script>
     <!-- Include SheetJS library -->
     <script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

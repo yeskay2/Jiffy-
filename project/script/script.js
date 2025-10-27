@@ -17,13 +17,16 @@ function fetchEmployees(selectedDate) {
 }
 
 var currentDate = new Date().toISOString().split('T')[0];
-document.getElementById('inline-date').value = currentDate;
-fetchEmployees(currentDate);
+var inlineDateElement = document.getElementById('inline-date');
+if (inlineDateElement) {
+    inlineDateElement.value = currentDate;
+    fetchEmployees(currentDate);
 
-document.getElementById('inline-date').addEventListener('change', function () {
-    var selectedDate = this.value;
-    fetchEmployees(selectedDate);
-});
+    inlineDateElement.addEventListener('change', function () {
+        var selectedDate = this.value;
+        fetchEmployees(selectedDate);
+    });
+}
 
 
 
@@ -33,8 +36,9 @@ const popupTitle = document.getElementById('popup-title');
 const popupDetails = document.getElementById('popup-details');
 const popupdate = document.getElementById('popup-date');
 
-eventLinks.forEach(link => {
-    link.addEventListener('click', function (event) {
+if (eventLinks && popup && popupTitle && popupDetails && popupdate) {
+    eventLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
         event.preventDefault();
         const title = this.getAttribute('data-title');
         const details = this.getAttribute('data-details');
@@ -46,8 +50,9 @@ eventLinks.forEach(link => {
         popupDetails.textContent = details;
         popupdate.textContent = date;
         popup.style.display = 'block';
+        });
     });
-});
+}
 
 
 function closePopup() {
@@ -56,10 +61,13 @@ function closePopup() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const eventModalContent = document.getElementById('eventModalContent');
-    const eventModal = new bootstrap.Modal(document.getElementById('eventModal'));
+    const eventModalElement = document.getElementById('eventModal');
+    
+    if (eventModalElement && eventModalContent) {
+        const eventModal = new bootstrap.Modal(eventModalElement);
 
-    const readMoreLinks = document.querySelectorAll('.read-more1');
-    readMoreLinks.forEach(function (link) {
+        const readMoreLinks = document.querySelectorAll('.read-more1');
+        readMoreLinks.forEach(function (link) {
         link.addEventListener('click', function (event) {
             event.preventDefault();
             const description = this.getAttribute('data-description');
@@ -85,9 +93,13 @@ document.addEventListener("DOMContentLoaded", function () {
             eventModalContent.innerHTML = content;
             eventModal.show();
         });
-    });
+        });
 
-    updateSliderControls();
+        // Only call updateSliderControls if it's defined
+        if (typeof updateSliderControls === 'function') {
+            updateSliderControls();
+        }
+    }
 });
 
 

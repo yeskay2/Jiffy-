@@ -887,11 +887,9 @@ input, select, textarea, button {
 
 
 
-                                <div id="selectedFiles"></div>
-
-
-                                <div class="col-lg-12">
-                                    <div class="d-flex flex-wrap align-items-ceter justify-content-center mt-4">
+                                <div id="selectedFiles"> </div>
+                                    <div class="col-lg-12">
+                                         <div class="d-flex flex-wrap align-items-ceter justify-content-center mt-4">
                                         <button type="submit" id="submitButton" class="custom-btn1 btn-2 mt-3 mt-lg-0 mr-3 text-center">Submit</button>
                                     </div>
                                 </div>
@@ -957,17 +955,41 @@ input, select, textarea, button {
     <script src="./../assets/vendor/moment.min.js"></script>
     <!-- Script file -->
     <script src="script/script.js"></script>
-    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <script src="./../ckeditor/ckeditor.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
      
     <script>
-        CKEDITOR.replace('editor1');
+        CKEDITOR.replace('editor1', {
+            // Security configurations
+            allowedContent: true, // Allow all content but with filtering
+            disallowedContent: 'script; *[on*]', // Block script tags and event handlers
+            forcePasteAsPlainText: false,
+            pasteFromWordPromptCleanup: true,
+            pasteFromWordRemoveFontStyles: true,
+            // Remove HTML5 video/audio to prevent XSS
+            removePlugins: 'flash',
+            // Enable additional security
+            entities: true,
+            basicEntities: true,
+            entities_latin: true,
+            entities_greek: true,
+            // Toolbar configuration for security
+            toolbar: [
+                { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
+                { name: 'paragraph', items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote'] },
+                { name: 'links', items: ['Link', 'Unlink'] },
+                { name: 'insert', items: ['Image', 'Table', 'HorizontalRule'] },
+                { name: 'styles', items: ['Format', 'Font', 'FontSize'] },
+                { name: 'colors', items: ['TextColor', 'BGColor'] },
+                { name: 'tools', items: ['Maximize'] }
+            ]
+        });
     </script>
 
     <script>
         $(document).ready(function() {
             setTimeout(function() {
-                $(".alert").alert('close');
+                $(".alert").fadeOut();
             }, 2000);
         });
     </script>
@@ -1079,16 +1101,22 @@ input, select, textarea, button {
 
         function showNoTasksFoundMessage() {
             const noTasksFoundMessage = document.getElementById('noTasksFoundMessage');
-            noTasksFoundMessage.style.display = 'block';
+            if (noTasksFoundMessage) {
+                noTasksFoundMessage.style.display = 'block';
+            }
         }
 
         function hideNoTasksFoundMessage() {
             const noTasksFoundMessage = document.getElementById('noTasksFoundMessage');
-            noTasksFoundMessage.style.display = 'none';
+            if (noTasksFoundMessage) {
+                noTasksFoundMessage.style.display = 'none';
+            }
         }
 
         const taskSearchInput = document.getElementById("taskSearchInput");
-        taskSearchInput.addEventListener("input", performSearch);
+        if (taskSearchInput) {
+            taskSearchInput.addEventListener("input", performSearch);
+        }
 
 
         function filterTasksByProject(projectName) {

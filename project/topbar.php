@@ -263,9 +263,6 @@ document.getElementById('dropdownMenuButton').addEventListener('click', function
 </script>
 
 <script>
-// Initialize message count to 0 (no messages)
-let messageCount = 0; 
-
 // Function to update the message count display
 function updateMessageCount(count) {
     const messageCountElement = document.getElementById('messageCount');

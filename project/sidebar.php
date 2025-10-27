@@ -541,7 +541,13 @@
                 }
             },
             error: function(xhr, status, error) {
-                console.error("AJAX request error:", error);
+                // Check if the response is HTML (indicating PHP errors)
+                if (xhr.responseText && xhr.responseText.indexOf('<') === 0) {
+                    console.error("Server returned HTML instead of JSON. Possible PHP error:");
+                    console.error(xhr.responseText.substring(0, 200) + "...");
+                } else {
+                    console.error("AJAX request error:", error);
+                }
             }
         });
     }
