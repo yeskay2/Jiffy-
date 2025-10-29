@@ -22,32 +22,33 @@ echo "<h1>👥 Add Dummy/Demo Credentials</h1>";
 // Check if form submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_dummies'])) {
     
-    // Dummy users to add
+    // Dummy users to add - Custom demo accounts
     $dummyUsers = [
+        // 2 Management Users
         [
-            'empid' => 'EMP-DEMO-001',
-            'full_name' => 'Admin Demo',
-            'email' => 'admin@demo.com',
-            'password' => 'admin123',
+            'empid' => 'EMP-MGR-001',
+            'full_name' => 'Alice Manager',
+            'email' => 'alice.manager@ggs.com',
+            'password' => 'manager123',
             'user_type' => 'Employee',
-            'user_role' => 'System Administrator',
-            'phone' => '1234567890',
-            'dob' => '1990-01-01',
+            'user_role' => 'management',
+            'phone' => '9876543201',
+            'dob' => '1985-03-15',
             'doj' => date('Y-m-d'),
             'department' => 1,
-            'address' => 'Demo Address',
-            'allpannel' => 'Admin,Management,Project Manager,Employee,All',
+            'address' => 'Management Office',
+            'allpannel' => 'Management,Project Manager,Employee',
             'active' => 'active'
         ],
         [
-            'empid' => 'EMP-DEMO-002',
-            'full_name' => 'Manager Demo',
-            'email' => 'manager@demo.com',
+            'empid' => 'EMP-MGR-002',
+            'full_name' => 'Bob Manager',
+            'email' => 'bob.manager@ggs.com',
             'password' => 'manager123',
             'user_type' => 'Employee',
-            'user_role' => 'Project Manager',
-            'phone' => '1234567891',
-            'dob' => '1992-01-01',
+            'user_role' => 'management',
+            'phone' => '9876543202',
+            'dob' => '1987-07-22',
             'doj' => date('Y-m-d'),
             'department' => 1,
             'address' => 'Demo Address',

@@ -68,31 +68,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const readMoreLinks = document.querySelectorAll('.read-more1');
         readMoreLinks.forEach(function (link) {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const description = this.getAttribute('data-description');
-            const date = this.getAttribute('data-date');
-            const start_time = this.getAttribute('data-start_time');
-            const end_time = this.getAttribute('data-end_time');
-            const location = this.getAttribute('data-location');
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const description = this.getAttribute('data-description');
+                const date = this.getAttribute('data-date');
+                const start_time = this.getAttribute('data-start_time');
+                const end_time = this.getAttribute('data-end_time');
+                const location = this.getAttribute('data-location');
 
-            let content = '<p>' + description + '</p>' + '<p>' + '<b>Date: </b>' + date + '</p>';
+                let content = '<p>' + description + '</p>' + '<p>' + '<b>Date: </b>' + date + '</p>';
 
-            if (start_time) {
-                content += '<p>' + '<b>Start Time: </b>' + start_time + '</p>';
-            }
+                if (start_time) {
+                    content += '<p>' + '<b>Start Time: </b>' + start_time + '</p>';
+                }
 
-            if (end_time) {
-                content += '<p>' + '<b>End Time: </b>' + end_time + '</p>';
-            }
+                if (end_time) {
+                    content += '<p>' + '<b>End Time: </b>' + end_time + '</p>';
+                }
 
-            if (location) {
-                content += '<p>' + '<b>Location: </b>' + location + '</p>';
-            }
+                if (location) {
+                    content += '<p>' + '<b>Location: </b>' + location + '</p>';
+                }
 
-            eventModalContent.innerHTML = content;
-            eventModal.show();
-        });
+                eventModalContent.innerHTML = content;
+                eventModal.show();
+            });
         });
 
         // Only call updateSliderControls if it's defined
