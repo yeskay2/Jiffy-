@@ -26843,8 +26843,11 @@ h3 {
   margin: 0px;
   line-height: 1.5;
   color: #140f49;
-  font-size: 1.728em a;
-  font-size-color: inherit;
+  font-size: 1.728em;
+}
+
+h3 a {
+  color: inherit;
 }
 
 h4 {
