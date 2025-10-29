@@ -100,7 +100,7 @@
                 <div>
                     <img src="assets2/img/models/Business.svg" class="img-fluid" alt="Project Management Icon" style="width: 120px; height: 80px; margin-bottom: 20px;">
                 </div>
-                <a href="https://business.mineit.tech/login" class="custom-btn1 btn-2 text-center" style="padding-left: 10px; padding-right: 10px;">Business / Sales</a>
+                <a href="http://localhost/Jiffy-new/business/" class="custom-btn1 btn-2 text-center" style="padding-left: 10px; padding-right: 10px;">Business / Sales</a>
             </div>
         </div>
     </div>
@@ -133,7 +133,7 @@
                 <div>
                     <img src="assets2/img/models/Finance.svg" class="img-fluid" alt="Project Management Icon" style="width: 120px; height: 80px; margin-bottom: 20px;">
                 </div>
-                <a href="https://jiffy.mineit.tech/Accounts/" class="custom-btn1 btn-2 text-center" style="padding-left: 10px; padding-right: 10px;">Finance</a>
+                <a href="http://localhost/Jiffy-new/Accounts/" class="custom-btn1 btn-2 text-center" style="padding-left: 10px; padding-right: 10px;">Finance</a>
             </div>
         </div>
     </div>

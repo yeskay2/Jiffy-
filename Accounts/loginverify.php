@@ -36,7 +36,7 @@ class UserAuthenticator
 
     public function authenticateUser($email, $password)
     {
-        $query = "SELECT *  FROM employee WHERE email = ? AND user_role = 'Accountent'";
+        $query = "SELECT *  FROM employee WHERE email = ? AND user_role = 'Accountant'";
         $stmt = mysqli_prepare($this->conn, $query);
         mysqli_stmt_bind_param($stmt, "s", $email);
         mysqli_stmt_execute($stmt);
