@@ -159,7 +159,7 @@ if (isset($_GET['year'])) {
                         <div class="card card-block card-stretch card-height">
                             <div class="card-body">
                                 <div class="top-block d-flex align-items-center justify-content-between">
-                                    <h5 style="margin-bottom: 10px;" class="hover-text">Registered Employees</h5>
+                                    <h5 style="margin-bottom: 10px;" class="hover-text">Registered Employee</h5>
                                     <style>
                                         .hover-text{
                                             transition: color 0.3s ease; /* Smooth
