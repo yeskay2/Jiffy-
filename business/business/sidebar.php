@@ -184,14 +184,6 @@
     </div>
 <?php } elseif ($_SESSION["id"] == 2) { ?>
     <div class="iq-sidebar  sidebar-default ">
-        <div class="iq-sidebar-logo d-flex align-items-center">
-            <a href="dashboard.php" class="header-logo">
-                <img src="./../assets/images/Jiffy-logo.png" alt="logo">
-            </a>
-            <div class="iq-menu-bt-sidebar ml-0">
-                <i class="fas fa-angle-double-left wrapper-menu"></i>
-            </div>
-        </div>
         <div class="data-scrollbar" data-scroll="1">
             <nav class="iq-sidebar-menu">
                 <ul id="iq-sidebar-toggle" class="iq-menu">
