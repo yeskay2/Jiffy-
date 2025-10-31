@@ -80,7 +80,7 @@ Refer to the Issues and Projects tabs for current tasks and discussions.
 
 ## Contact
 
-Maintainer: [karan4533](https://github.com/karan4533)  
+Maintainer: [Dr.karthikeyan](https://github.com/yeskay2)[karan4533](https://github.com/karan4533)  
 For questions or support, please open an issue in this repository.
 
 ---
